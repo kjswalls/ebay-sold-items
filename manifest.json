@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
 
-  "name": "Modify CSS and HTML",
+  "name": "eBay Sold Listings Button",
   "version": "0.1.0",
-  "description": "Lateral blog post demo extension",
+  "description": "A button to show you sold listings for a specific eBay search",
 
   "content_scripts": [{
     "css": ["styles.css"],
     "js": ["content.js"],
-    "matches": ["https://blog.lateral.io/*"]
+    "matches": ["https://www.ebay.com/sch/i.html*"]
   }]
 
 }
