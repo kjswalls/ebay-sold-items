@@ -15,6 +15,7 @@ function createButton() {
   
   const soldButton = firstButton.cloneNode(true);
   soldButton.classList.add('soldButton');
+  soldButton.classList.remove('fake-tabs__item--current');
   
   const buttonSpan = soldButton.querySelector('span');
   buttonSpan.textContent = 'Sold Listings';
