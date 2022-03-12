@@ -10,7 +10,7 @@ function createSoldListingsURL() {
 }
 
 function createButton() {
-  const tabButtonList = document.querySelector('.srp-controls__row-cells.fake-tabs__items');
+  const tabButtonList = document.querySelector('.fake-tabs__items');
   const firstButton = tabButtonList.querySelector('.fake-tabs__item.btn');
   
   const soldButton = firstButton.cloneNode(true);
